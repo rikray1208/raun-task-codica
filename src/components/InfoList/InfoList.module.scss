@@ -1,0 +1,11 @@
+.container {
+  @apply max-w-[640px] w-full space-y-4
+}
+
+.container__header {
+  @apply flex items-center text-myPrimary text-2xl font-bold uppercase sm:text-4xl
+}
+
+.container__item {
+  @apply flex justify-between text-mySecondary font-medium text-xl sm:text-2xl
+}

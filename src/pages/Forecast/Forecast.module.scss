@@ -1,0 +1,11 @@
+.wrapper {
+  @apply container mx-auto py-20 lg:h-screen px-4 2xl:px-12
+}
+
+.containerInput {
+  @apply w-full flex justify-center lg:justify-start
+}
+
+.cardsList {
+  @apply h-full max-w-[400px] w-full mx-auto flex items-center pt-20 lg:pt-0 md:max-w-screen-sm  lg:max-w-screen-lg
+}

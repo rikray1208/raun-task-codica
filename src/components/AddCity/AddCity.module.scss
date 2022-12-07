@@ -1,0 +1,15 @@
+.container {
+  @apply flex space-x-2 items-center
+}
+
+.container__input {
+  @apply border-2 border-mySecondary rounded-2xl outline-none bg-inherit p-2 text-mySecondary text-sm sm:text-base disabled:opacity-60
+}
+
+.container__button {
+  @apply rounded-xl bg-mySecondary p-2 transition-all active:scale-95 disabled:opacity-60
+}
+
+.error {
+  @apply text-sm text-red-600 font-medium
+}

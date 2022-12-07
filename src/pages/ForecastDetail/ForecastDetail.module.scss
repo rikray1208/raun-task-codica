@@ -1,0 +1,7 @@
+.wrapper {
+  @apply max-w-screen-2xl mx-auto flex flex-col flex-wrap justify-center items-center gap-y-12 gap-x-6 p-6 xl:h-screen 2xl:justify-between xl:flex-row
+}
+
+.chartContainer {
+  @apply max-w-[740px] w-full
+}
